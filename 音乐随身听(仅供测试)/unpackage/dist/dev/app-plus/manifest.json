@@ -1,0 +1,119 @@
+{
+  "@platforms": [
+    "android",
+    "iPhone",
+    "iPad"
+  ],
+  "id": "__UNI__4AE30B4s",
+  "name": "音乐随身听",
+  "version": {
+    "name": "1.0.0",
+    "code": "100"
+  },
+  "description": "音乐随身听(仅供测试)",
+  "launch_path": "__uniapptabbar.html",
+  "developer": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "permissions": {
+    "Push": {},
+    "Share": {},
+    "Payment": {},
+    "Maps": {
+      "coordType": "gcj02"
+    },
+    "Fingerprint": {},
+    "UniNView": {
+      "description": "UniNView原生渲染"
+    }
+  },
+  "plus": {
+    "useragent": {
+      "value": "uni-app appservice",
+      "concatenate": true
+    },
+    "splashscreen": {
+      "autoclose": false,
+      "waiting": false
+    },
+    "popGesture": "close",
+    "launchwebview": {},
+    "statusbar": {
+      "immersed": "supportedDevice",
+      "style": "light",
+      "background": "#EA4758"
+    },
+    "usingComponents": true,
+    "distribute": {
+      "google": {
+        "permissions": [
+          "<uses-feature android:name=\"android.hardware.camera\"/>",
+          "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+          "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+          "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+          "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+          "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+          "<uses-permission android:name=\"android.permission.USE_FINGERPRINT\"/>",
+          "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+          "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+        ],
+        "schemes": "yysst"
+      },
+      "apple": {
+        "privacyDescription": {
+          "NSPhotoLibraryUsageDescription": "请求打开相册",
+          "NSPhotoLibraryAddUsageDescription": "请求保存相册",
+          "NSCameraUsageDescription": "请求打开摄像头",
+          "NSLocationWhenInUseUsageDescription": "请求访问地址",
+          "NSLocationAlwaysUsageDescription": "是否允许后台运行",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "请求访问地址",
+          "NSCalendarsUsageDescription": "请求打开日历",
+          "NSRemindersUsageDescription": "请求访问提示",
+          "NSAppleMusicUsageDescription": "请求访问本地资源"
+        },
+        "UIBackgroundModes": [
+          "audio"
+        ]
+      },
+      "plugins": {
+        "oauth": {},
+        "audio": {
+          "mp3": {
+            "description": "Android平台录音支持MP3格式文件"
+          }
+        }
+      }
+    },
+    "allowsInlineMediaPlayback": true,
+    "safearea": {
+      "background": "#ffffff",
+      "bottom": {
+        "offset": "auto"
+      }
+    },
+    "uni-app": {
+      "compilerVersion": "2.3.3",
+      "control": "v8",
+      "nvueCompiler": "weex",
+      "renderer": "auto"
+    },
+    "secondwebview": {
+      "id": "1",
+      "launch_path": "__uniappview.html",
+      "kernel": "WKWebview"
+    }
+  }
+}

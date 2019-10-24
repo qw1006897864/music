@@ -1,0 +1,72 @@
+/* pages/rank/rank.wxss */
+.rank-content.data-v-2c157d88 {
+  padding: 20rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+}
+.rank-item.data-v-2c157d88 {
+  padding: 20rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #F9F9F9;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10rpx;
+  width: 100%;
+}
+.rank-image-content.data-v-2c157d88 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.rank-image-content image.data-v-2c157d88 {
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 10rpx;
+  background: #000000;
+}
+.right-item.data-v-2c157d88 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 20rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+}
+.song-list.data-v-2c157d88 {
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+}
+.song-index.data-v-2c157d88 {
+  color: #bbb;
+  font-size: 24rpx;
+  margin-right: 10rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.song-item.data-v-2c157d88 {
+  font-size: 26rpx;
+  color: #888;
+}
+

@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/main/main",
+    "pages/user/user",
+    "pages/recommend/recommend",
+    "pages/discover/discover",
+    "pages/recommendDetail/recommendDetail",
+    "pages/rank/rank",
+    "pages/songList/songList",
+    "pages/playMusic/playMusic",
+    "pages/guide/guide"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#EA4758",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#7a7e83",
+    "selectedColor": "#EA4758",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "音乐库",
+        "iconPath": "static/img/icon/tabar/music-normal.png",
+        "selectedIconPath": "static/img/icon/tabar/music.png"
+      },
+      {
+        "pagePath": "pages/recommend/recommend",
+        "text": "推荐",
+        "iconPath": "static/img/icon/tabar/recommend-normal.png",
+        "selectedIconPath": "static/img/icon/tabar/recommend.png"
+      },
+      {
+        "pagePath": "pages/discover/discover",
+        "text": "发现",
+        "iconPath": "static/img/icon/tabar/discover-normal.png",
+        "selectedIconPath": "static/img/icon/tabar/discover.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "static/img/icon/tabar/my-normal.png",
+        "selectedIconPath": "static/img/icon/tabar/my.png"
+      }
+    ]
+  },
+  "nvueCompiler": "weex",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": false,
+    "autoclose": true
+  },
+  "appname": "音乐随身听",
+  "compilerVersion": "2.3.3",
+  "usingComponents": {}
+}

@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"guide-content{ width: 100%; height: 100%; position: fixed; }\n.",[1],"guide-scroll,.",[1],"scroll-view-item{ width: 100%; height:100%; }\n.",[1],"guide-img{ width: 100%; height: 100%; }\n.",[1],"button-guide{ position: fixed; bottom: 20%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); z-index: 1; }\n",],undefined,{path:"./pages/guide/guide.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/guide/guide.wxml') } }));

@@ -1,0 +1,17 @@
+
+export const SET_LOGINSTATE = 'SET_LOGINSTATE'
+
+export const SET_ISLOGINSHOW = 'SET_ISLOGINSHOW'
+
+export const SET_ISAUTH = 'SET_ISAUTH'
+
+export const SET_WXSHARESTATUS = 'SET_WXSHARESTATUS'
+
+
+
+
+
+
+
+
+

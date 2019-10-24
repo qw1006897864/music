@@ -1,0 +1,25 @@
+
+.guide-content{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+}
+.guide-scroll,.scroll-view-item{
+	width: 100%;
+	height:100%;
+}
+.guide-img{
+	width: 100%;
+	height: 100%;
+	/* height: 100rpx; */
+}
+.button-guide{
+	position: fixed;
+	bottom: 20%;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	z-index: 1;
+}
+

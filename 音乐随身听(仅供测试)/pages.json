@@ -1,0 +1,111 @@
+{
+    "pages": [ //pages数组中第一项表示应用启动页,
+        {
+            "path": "pages/index/index",
+            "style": {
+                "navigationBarTitleText": "",
+				"navigationStyle":"custom"  
+            }
+        },  
+		{
+            "path": "pages/main/main",
+            "style": {
+                "navigationBarTitleText": "音乐库"
+            }
+        }, 
+		{
+            "path": "pages/user/user",
+            "style": {
+                "navigationBarTitleText": "我的"
+            }
+        },
+		{
+            "path" : "pages/recommend/recommend",
+            "style" : {
+				 "navigationBarTitleText": "推荐"
+				 
+			}
+        },
+		{
+            "path" : "pages/discover/discover",
+            "style" : {
+				 "navigationBarTitleText": "发现"
+			}
+        }
+        ,{
+            "path" : "pages/recommendDetail/recommendDetail",
+            "style" : {
+				"navigationBarTitleText":"推荐歌曲",
+				 "navigationStyle":"custom"  
+			}
+        }
+        ,{
+            "path" : "pages/rank/rank",
+            "style" : {
+				"navigationBarTitleText":"排行"
+			}
+        }
+        ,{
+            "path" : "pages/songList/songList",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/playMusic/playMusic",
+            "style" : {
+				"navigationStyle":"custom"  ,
+				"navigationBarTitleText":"音乐"
+			}
+        }
+        ,{
+            "path" : "pages/guide/guide",
+            "style" : {
+				"navigationStyle":"custom"  
+			}
+        }
+    ],
+    "tabBar": {
+        "color": "#7a7e83",
+        "selectedColor": "#EA4758",
+        "backgroundColor": "#ffffff",
+        "list": [
+			{
+				"pagePath": "pages/main/main",
+				"text": "音乐库",
+				"iconPath": "static/img/icon/tabar/music-normal.png",
+				"selectedIconPath": "static/img/icon/tabar/music.png"
+			},
+			{
+				"pagePath": "pages/recommend/recommend",
+				"text": "推荐",
+				"iconPath": "static/img/icon/tabar/recommend-normal.png",
+				"selectedIconPath": "static/img/icon/tabar/recommend.png"
+			},
+			{
+				"pagePath": "pages/discover/discover",
+				"text": "发现",
+				"iconPath": "static/img/icon/tabar/discover-normal.png",
+				"selectedIconPath": "static/img/icon/tabar/discover.png"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"text": "我的",
+				"iconPath": "static/img/icon/tabar/my-normal.png",
+				"selectedIconPath": "static/img/icon/tabar/my.png"
+			}
+		]
+    },
+    "globalStyle": {
+		/**
+		 * navigationBarTextStyle：导航栏标题颜色及状态栏前景颜色，仅支持 black/white
+		 */
+        "navigationBarTextStyle": "white",
+		/**
+		 * navigationBarBackgroundColor：导航栏标题文字内容
+		 */
+        "navigationBarBackgroundColor": "#EA4758",
+		/**
+		 * backgroundColor:窗口的背景色	--微信小程序
+		 */
+        "backgroundColor": "#FFFFFF"
+    }
+}

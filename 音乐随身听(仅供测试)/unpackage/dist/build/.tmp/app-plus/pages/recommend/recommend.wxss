@@ -1,0 +1,94 @@
+/* pages/recommend/recommend.wxss */
+.recommend.data-v-79202530 {
+  height: 100%;
+  padding: 20rpx 20rpx 40rpx;
+}
+.scroll-view.data-v-79202530 {
+  width: 100%;
+}
+.recommend-content.data-v-79202530 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  overflow: auto;
+}
+.recommend-title.data-v-79202530 {
+  color: #EA4758;
+  font-size: 36rpx;
+  padding: 0 10rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.recommend-title .more.data-v-79202530 {
+  color: #ccc;
+  font-size: 24rpx;
+}
+.recommend-item.data-v-79202530 {
+  width: 33.3%;
+  z-index: 2;
+  position: relative;
+  padding: 10rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.recommend-item-title.data-v-79202530 {
+  color: #666;
+  font-size: 20rpx;
+  line-height: 30rpx;
+}
+.recommend-item-image.data-v-79202530 {
+  border-radius: 10rpx;
+  width: 100%;
+  height: 200rpx;
+}
+.recommend-listen-num.data-v-79202530 {
+  font-size: 24rpx;
+  color: #fff;
+  position: absolute;
+  left: 20rpx;
+  top: 170rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.recommend-listen-num image.data-v-79202530 {
+  width: 24rpx;
+  height: 24rpx;
+  margin-right: 15rpx;
+  padding-top: 5rpx;
+}
+.recommend-footer.data-v-79202530 {
+  text-align: center;
+}
+.recommend-footer text.data-v-79202530 {
+  display: inline-block;
+  color: #bbb;
+  font-size: 24rpx;
+  border: 1px solid #ddd;
+  border-radius: 10rpx;
+  padding: 5rpx 20rpx;
+}
+
